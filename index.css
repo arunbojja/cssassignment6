@@ -1,0 +1,133 @@
+body{
+    background-image: url(./shara\ desert.jpg);
+}
+.camel{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+@media screen and (min-width: 360px) and (max-width: 560px){
+.cam {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+}
+.part1{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 350px;
+    float: right;
+    clear: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+@media screen and (min-width: 360px) and (max-width: 560px){
+.part1{
+    display: grid;
+    margin-right: -280px;
+}
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+
+.sahara{
+    color: white;
+    height: 150px;
+    width: 550px;
+    font-size: 90px;
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    text-align: justify;
+}
+@media screen and (min-width: 360px) and (max-width: 560px){
+.sahara{
+    font-size: 50px;
+    margin-top: -90px;
+    margin-left: 30px;
+}
+}
+.text{
+    color: white;
+    position: absolute;
+    top: 80px;
+    font-size: 15px;
+}
+@media screen and (min-width: 360px) and (max-width: 560px){
+    .text{
+        font-size: xx-small;
+        margin-top: -20px;
+        width: 300px;
+    }
+    }
+button{
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+@media screen and (min-width: 360px) and (max-width: 560px){
+    button{
+        font-size: 15px;
+        margin-top: -180px;
+    }
+    }
+.part2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+    gap: 40px;
+    position: absolute;
+    top: 100px;
+    right: 140px;
+}
+@media screen and (min-width: 360px) and (max-width:560px){
+.part2{
+    position: absolute;
+    top: 300px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    left: 40%;
+}
+}
+.box{
+    height: 450px;
+    width: 400px;
+    zoom: 60%;
+    border-radius: 15px;
+    transition: transform 0.2s linear;
+    cursor: pointer;
+}
+.box:hover{
+    transform: translateY(-30px);
+}
+.box1{
+    background-image: url(./pic-1.png);
+    color: white;
+}
+
+.box2{
+    background-image: url(./pic-2.png);
+    color: white;
+}
+.box3{
+    background-image: url(./pic-3.png);
+    color: white;
+}
+.box4{
+    background-image: url(./pic-4.png);
+    color: white;
+}
